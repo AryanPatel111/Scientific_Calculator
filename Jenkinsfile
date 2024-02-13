@@ -4,6 +4,8 @@ pipeline {
     environment {
         DOCKER_REGISTRY_CREDENTIALS = 'DockerHubCred'
         DOCKER_IMAGE_NAME = 'aryanpatel111/spe_mini_project'
+        LANG = 'en_US.UTF-8'
+
     }
 
     stages {
