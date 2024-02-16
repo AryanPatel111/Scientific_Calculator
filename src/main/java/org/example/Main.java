@@ -157,6 +157,9 @@ public class Main {
 
     public static int calculateFactorial(int num) {
         int c = num;
+        if(c==0){
+            return 1;
+        }
         for (int i = num - 1; i >= 1; i--) c = c * i;
         logger.info("Executing Factorial function!");
         return c;
