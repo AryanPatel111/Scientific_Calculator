@@ -24,3 +24,4 @@
 17:27:04.007 [main] INFO  org.example.Main - Executing Power function!
 17:27:04.009 [main] INFO  org.example.Main - Executing naturalLog function!
 17:27:04.009 [main] INFO  org.example.Main - Executing naturalLog function!
+17:49:52.531 [main] INFO  org.example.Main - The world's first unscientific calculator. Now with many many DevOp tools behind it
