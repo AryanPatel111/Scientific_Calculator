@@ -25,3 +25,18 @@
 17:27:04.009 [main] INFO  org.example.Main - Executing naturalLog function!
 17:27:04.009 [main] INFO  org.example.Main - Executing naturalLog function!
 17:49:52.531 [main] INFO  org.example.Main - The world's first unscientific calculator. Now with many many DevOp tools behind it
+17:54:22.844 [main] INFO  org.example.Main - The world's first unscientific calculator. Now with many many DevOp tools behind it
+17:54:27.857 [main] INFO  org.example.Main - Executing squareRoot function!
+17:56:53.558 [main] INFO  org.example.Main - The world's first unscientific calculator. Now with many many DevOp tools behind it
+17:57:01.232 [main] INFO  org.example.Main - Executing squareRoot function!
+17:57:08.111 [main] INFO  org.example.Main - Executing Power function!
+18:00:17.990 [main] INFO  org.example.Main - The world's first unscientific calculator. Now with many many DevOp tools behind it
+18:00:24.214 [main] INFO  org.example.Main - Executing squareRoot function!
+18:03:47.436 [main] INFO  org.example.Main - Executing squareRoot function!
+18:03:47.447 [main] INFO  org.example.Main - Executing squareRoot function!
+18:03:47.450 [main] INFO  org.example.Main - Executing Factorial function!
+18:03:47.452 [main] INFO  org.example.Main - Executing Power function!
+18:03:47.453 [main] INFO  org.example.Main - Executing Power function!
+18:03:47.454 [main] INFO  org.example.Main - Executing naturalLog function!
+18:03:47.455 [main] INFO  org.example.Main - Executing naturalLog function!
+18:06:34.563 [main] INFO  org.example.Main - The world's first unscientific calculator. Now with many many DevOp tools behind it
