@@ -156,13 +156,24 @@ public class Main {
     }
 
     public static int calculateFactorial(int num) {
-        int c = num;
+        /*int c = num;
         if(c==0){
             return 1;
         }
         for (int i = num - 1; i >= 1; i--) c = c * i;
         logger.info("Executing Factorial function!");
-        return c;
+        return c;*/
+        if (num == 0) {
+            return 1; // Factorial of 0 is 1
+        }
+
+        int factorial = 1;
+        for (int i = num; i >= 1; i--) {
+            factorial *= i;
+        }
+
+        logger.info("Executing Factorial function!");
+        return factorial;
     }
 
     public static double calculateNaturalLogarithm(double num) {
