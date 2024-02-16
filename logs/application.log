@@ -40,3 +40,5 @@
 18:03:47.454 [main] INFO  org.example.Main - Executing naturalLog function!
 18:03:47.455 [main] INFO  org.example.Main - Executing naturalLog function!
 18:06:34.563 [main] INFO  org.example.Main - The world's first unscientific calculator. Now with many many DevOp tools behind it
+18:31:03.837 [main] INFO  org.example.Main - The world's first unscientific calculator. Now with many many DevOp tools behind it
+18:31:19.637 [main] INFO  org.example.Main - Executing naturalLog function!
