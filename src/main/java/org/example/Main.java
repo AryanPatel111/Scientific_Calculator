@@ -66,7 +66,7 @@ public class Main {
                         break;
 
                     default:
-                        System.out.println("Invalid input!!!  Exiting");
+                        System.out.println("Invalid input!!!  Exiting...");
                         flag = 1;
                 }
             }
