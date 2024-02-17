@@ -6,5 +6,5 @@ WORKDIR /app
 # Copy the JAR file into the container
 COPY target/javaCalc-with-dependencies.jar /app/
 
-# Define the command to run the JAR file
-#CMD ["java", "-jar", "minispe-1.0-SNAPSHOT.jar"]
+# docker exec -it <container-id> /bin/bash    -- to run the container
+# java -cp javaCalc-with-dependencies.jar org.example.Main       -- to run the jar file

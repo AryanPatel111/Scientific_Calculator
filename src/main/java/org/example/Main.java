@@ -1,79 +1,3 @@
-/*
-package org.example;
-
-import java.util.Scanner;
-
-public class Main {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        while (true) {
-            System.out.println("Scientific Calculator Menu:");
-            System.out.println("1. Square root function - √x");
-            System.out.println("2. Factorial function - x!");
-            System.out.println("3. Natural logarithm (base е) - ln(x)");
-            System.out.println("4. Power function - x^b");
-            System.out.println("5. Exit");
-            System.out.print("Enter your choice: ");
-            int choice = scanner.nextInt();
-
-            switch (choice) {
-                case 1:
-                    System.out.print("Enter a number to find its square root: ");
-                    double numberSqrt = scanner.nextDouble();
-                    double resultSqrt = calculateSquareRoot(numberSqrt);
-                    System.out.println("Square root of " + numberSqrt + " is " + resultSqrt);
-                    break;
-                case 2:
-                    System.out.print("Enter a number to find its factorial: ");
-                    int numberFact = scanner.nextInt();
-                    int resultFact = calculateFactorial(numberFact);
-                    System.out.println("Factorial of " + numberFact + " is " + resultFact);
-                    break;
-                case 3:
-                    System.out.print("Enter a number to find its natural logarithm: ");
-                    double numberLog = scanner.nextDouble();
-                    double resultLog = calculateNaturalLogarithm(numberLog);
-                    System.out.println("Natural logarithm of " + numberLog + " is " + resultLog);
-                    break;
-                case 4:
-                    System.out.print("Enter base (x) value: ");
-                    double base = scanner.nextDouble();
-                    System.out.print("Enter exponent (b) value: ");
-                    double exponent = scanner.nextDouble();
-                    double resultPower = calculatePowerFunction(base, exponent);
-                    System.out.println(base + " raised to the power " + exponent + " is " + resultPower);
-                    break;
-                case 5:
-                    System.out.println("Exiting...");
-                    System.exit(0);
-                default:
-                    System.out.println("Invalid choice! Please enter a number between 1 and 5.");
-            }
-        }
-    }
-
-    public static double calculateSquareRoot(double number) {
-        return Math.sqrt(number);
-    }
-
-    public static int calculateFactorial(int n) {
-        if (n == 0)
-            return 1;
-        else
-            return n * calculateFactorial(n - 1);
-    }
-
-    public static double calculateNaturalLogarithm(double number) {
-        return Math.log(number);
-    }
-
-    public static double calculatePowerFunction(double base, double exponent) {
-        return Math.pow(base, exponent);
-    }
-}
-*/
-
 package org.example;
 
 import org.apache.logging.log4j.LogManager;
@@ -85,15 +9,15 @@ public class Main {
     private static final Logger logger = LogManager.getLogger(Main.class);
 
     public static void main(String[] args) {
-        logger.info("The world's first unscientific calculator. Now with many many DevOp tools behind it");
+        logger.info("SPE SCIENTIFIC JAVA CALCULATOR");
         Scanner reader = new Scanner(System.in);
         int op, flag = 0;
         double num, exp;
         int numm;
 
         do {
-            System.out.println("------------Calculator--------------");
-            System.out.println("Choices of Operations:");
+            System.out.println("Calculator.......");
+            System.out.println("Choose Operation to perform:");
             System.out.println("");
             System.out.println("1. Square root");
             System.out.println("2. Factorial");
@@ -101,14 +25,14 @@ public class Main {
             System.out.println("4. Power");
             System.out.println("5. Exit");
             System.out.println("");
-            System.out.print("Enter your choice(number): ");
+            System.out.print("Enter your choice: ");
             System.out.println("");
             op = reader.nextInt();
             if (op == 5) flag = 1;
             else {
                 switch (op) {
                     case 1:  // Square Root
-                        System.out.println("You choose Square Root!!");
+                        System.out.println("Square Root Operation!!");
                         System.out.println("");
                         System.out.print("Enter number: ");
                         num = reader.nextDouble();
@@ -116,7 +40,7 @@ public class Main {
                         break;
 
                     case 2: // Factorial
-                        System.out.println("You choose Factorial!!");
+                        System.out.println("Factorial Operation!!");
                         System.out.println("");
                         System.out.print("Enter number: ");
                         numm = reader.nextInt();
@@ -124,7 +48,7 @@ public class Main {
                         break;
 
                     case 3: // Natural Log
-                        System.out.println("You choose Natural Log!!");
+                        System.out.println("Natural Log Operation!!");
                         System.out.println("");
                         System.out.print("Enter number: ");
                         num = reader.nextDouble();
@@ -132,7 +56,7 @@ public class Main {
                         break;
 
                     case 4: // Power
-                        System.out.println("You choose Power!!");
+                        System.out.println("Power Operation!!");
                         System.out.println("");
                         System.out.print("Enter number: ");
                         num = reader.nextDouble();
@@ -142,7 +66,7 @@ public class Main {
                         break;
 
                     default:
-                        System.out.println("Exiting due to invalid input!!");
+                        System.out.println("Invalid input!!!  Exiting");
                         flag = 1;
                 }
             }
@@ -156,17 +80,9 @@ public class Main {
     }
 
     public static int calculateFactorial(int num) {
-        /*int c = num;
-        if(c==0){
+        if (num == 0) {
             return 1;
         }
-        for (int i = num - 1; i >= 1; i--) c = c * i;
-        logger.info("Executing Factorial function!");
-        return c;*/
-        if (num == 0) {
-            return 1; // Factorial of 0 is 1
-        }
-
         int factorial = 1;
         for (int i = num; i >= 1; i--) {
             factorial *= i;
