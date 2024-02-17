@@ -1,2 +1,17 @@
 
 14:29:58.293 [main] INFO  org.example.Main - SPE SCIENTIFIC JAVA CALCULATOR
+14:42:21.133 [main] INFO  org.example.Main - Executing squareRoot function!
+14:42:21.137 [main] INFO  org.example.Main - Executing squareRoot function!
+14:42:21.137 [main] INFO  org.example.Main - Executing squareRoot function!
+14:42:21.137 [main] INFO  org.example.Main - Executing squareRoot function!
+14:42:21.138 [main] INFO  org.example.Main - Executing Factorial function!
+14:42:21.138 [main] INFO  org.example.Main - Executing Factorial function!
+14:42:21.138 [main] INFO  org.example.Main - Executing Factorial function!
+14:42:21.138 [main] INFO  org.example.Main - Executing Power function!
+14:42:21.139 [main] INFO  org.example.Main - Executing Power function!
+14:42:21.139 [main] INFO  org.example.Main - Executing Power function!
+14:42:21.139 [main] INFO  org.example.Main - Executing Power function!
+14:42:21.139 [main] INFO  org.example.Main - Executing naturalLog function!
+14:42:21.139 [main] INFO  org.example.Main - Executing naturalLog function!
+14:42:21.140 [main] INFO  org.example.Main - Executing naturalLog function!
+14:42:21.140 [main] INFO  org.example.Main - Executing naturalLog function!
